@@ -7,21 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD5530DA1C5719F000AB08AE /* SwiftLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5530D91C5719F000AB08AE /* SwiftLoading.swift */; };
+		DD5530DC1C571CE100AB08AE /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5530DB1C571CE100AB08AE /* MasterTableViewController.swift */; };
+		DD5530DE1C57234B00AB08AE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5530DD1C57234B00AB08AE /* DetailViewController.swift */; };
+		DD5530E01C57269800AB08AE /* DisplayMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5530DF1C57269800AB08AE /* DisplayMessage.swift */; };
+		DD7671681C57D8BF003B5109 /* tableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7671671C57D8BF003B5109 /* tableViewCell.swift */; };
 		DDEFE2D81C570EBC00DBE53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE2D71C570EBC00DBE53D /* AppDelegate.swift */; };
-		DDEFE2DA1C570EBC00DBE53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE2D91C570EBC00DBE53D /* ViewController.swift */; };
 		DDEFE2DD1C570EBC00DBE53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE2DB1C570EBC00DBE53D /* Main.storyboard */; };
 		DDEFE2DF1C570EBC00DBE53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE2DE1C570EBC00DBE53D /* Assets.xcassets */; };
 		DDEFE2E21C570EBC00DBE53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE2E01C570EBC00DBE53D /* LaunchScreen.storyboard */; };
+		DDEFE2F71C570EEC00DBE53D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE2EA1C570EEC00DBE53D /* .gitignore */; };
+		DDEFE2F81C570EEC00DBE53D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE2EB1C570EEC00DBE53D /* Info.plist */; };
+		DDEFE2F91C570EEC00DBE53D /* JSONJoy-Swift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE2EC1C570EEC00DBE53D /* JSONJoy-Swift.podspec */; };
+		DDEFE2FA1C570EEC00DBE53D /* JSONJoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE2EE1C570EEC00DBE53D /* JSONJoy.swift */; };
+		DDEFE2FB1C570EEC00DBE53D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE2F21C570EEC00DBE53D /* LICENSE */; };
+		DDEFE2FC1C570EEC00DBE53D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE2F31C570EEC00DBE53D /* README.md */; };
+		DDEFE31E1C570EF600DBE53D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE30C1C570EF600DBE53D /* .gitignore */; };
+		DDEFE31F1C570EF600DBE53D /* CHANGELOG.md in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE30D1C570EF600DBE53D /* CHANGELOG.md */; };
+		DDEFE3201C570EF600DBE53D /* HTTPSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE30E1C570EF600DBE53D /* HTTPSecurity.swift */; };
+		DDEFE3211C570EF600DBE53D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE30F1C570EF600DBE53D /* Info.plist */; };
+		DDEFE3221C570EF600DBE53D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE3101C570EF600DBE53D /* LICENSE */; };
+		DDEFE3231C570EF600DBE53D /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE3111C570EF600DBE53D /* Operation.swift */; };
+		DDEFE3241C570EF600DBE53D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE3121C570EF600DBE53D /* README.md */; };
+		DDEFE3251C570EF600DBE53D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE3131C570EF600DBE53D /* Request.swift */; };
+		DDEFE3261C570EF600DBE53D /* StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE3141C570EF600DBE53D /* StatusCode.swift */; };
+		DDEFE3271C570EF600DBE53D /* SwiftHTTP.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DDEFE3161C570EF600DBE53D /* SwiftHTTP.podspec */; };
+		DDEFE32A1C570EF600DBE53D /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE31D1C570EF600DBE53D /* Upload.swift */; };
+		DDEFE3381C570F1B00DBE53D /* Mensaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE3371C570F1B00DBE53D /* Mensaje.swift */; };
+		DDEFE33A1C57104500DBE53D /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDEFE3391C57104500DBE53D /* Connection.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DDEFE3031C570EEC00DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE2EF1C570EEC00DBE53D /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79B719D355CF006071F7;
+			remoteInfo = JSONJoy;
+		};
+		DDEFE3051C570EEC00DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE2EF1C570EEC00DBE53D /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79C219D355CF006071F7;
+			remoteInfo = JSONJoyTests;
+		};
+		DDEFE3071C570EEC00DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE2EF1C570EEC00DBE53D /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958022E19E6ED8E003C8218;
+			remoteInfo = JSONJoyOSX;
+		};
+		DDEFE3091C570EEC00DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE2EF1C570EEC00DBE53D /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958023819E6ED8E003C8218;
+			remoteInfo = JSONJoyOSXTests;
+		};
+		DDEFE32F1C570EF600DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE3171C570EF600DBE53D /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
+		DDEFE3311C570EF600DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE3171C570EF600DBE53D /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
+			remoteInfo = SwiftHTTPTests;
+		};
+		DDEFE3331C570EF600DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE3171C570EF600DBE53D /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958025919E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
+		};
+		DDEFE3351C570EF600DBE53D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDEFE3171C570EF600DBE53D /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958026319E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSXTests;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		DD5530D91C5719F000AB08AE /* SwiftLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftLoading.swift; sourceTree = "<group>"; };
+		DD5530DB1C571CE100AB08AE /* MasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		DD5530DD1C57234B00AB08AE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DD5530DF1C57269800AB08AE /* DisplayMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayMessage.swift; sourceTree = "<group>"; };
+		DD7671671C57D8BF003B5109 /* tableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableViewCell.swift; sourceTree = "<group>"; };
 		DDEFE2D41C570EBC00DBE53D /* Aplicacion Prueba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aplicacion Prueba.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEFE2D71C570EBC00DBE53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DDEFE2D91C570EBC00DBE53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDEFE2DC1C570EBC00DBE53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDEFE2DE1C570EBC00DBE53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDEFE2E11C570EBC00DBE53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDEFE2E31C570EBC00DBE53D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEFE2EA1C570EEC00DBE53D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DDEFE2EB1C570EEC00DBE53D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEFE2EC1C570EEC00DBE53D /* JSONJoy-Swift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "JSONJoy-Swift.podspec"; sourceTree = "<group>"; };
+		DDEFE2ED1C570EEC00DBE53D /* JSONJoy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONJoy.h; sourceTree = "<group>"; };
+		DDEFE2EE1C570EEC00DBE53D /* JSONJoy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoy.swift; sourceTree = "<group>"; };
+		DDEFE2EF1C570EEC00DBE53D /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = JSONJoy.xcodeproj; sourceTree = "<group>"; };
+		DDEFE2F21C570EEC00DBE53D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DDEFE2F31C570EEC00DBE53D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DDEFE30C1C570EF600DBE53D /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		DDEFE30D1C570EF600DBE53D /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		DDEFE30E1C570EF600DBE53D /* HTTPSecurity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPSecurity.swift; sourceTree = "<group>"; };
+		DDEFE30F1C570EF600DBE53D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDEFE3101C570EF600DBE53D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DDEFE3111C570EF600DBE53D /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		DDEFE3121C570EF600DBE53D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DDEFE3131C570EF600DBE53D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		DDEFE3141C570EF600DBE53D /* StatusCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCode.swift; sourceTree = "<group>"; };
+		DDEFE3151C570EF600DBE53D /* SwiftHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftHTTP.h; sourceTree = "<group>"; };
+		DDEFE3161C570EF600DBE53D /* SwiftHTTP.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftHTTP.podspec; sourceTree = "<group>"; };
+		DDEFE3171C570EF600DBE53D /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SwiftHTTP.xcodeproj; sourceTree = "<group>"; };
+		DDEFE31D1C570EF600DBE53D /* Upload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Upload.swift; sourceTree = "<group>"; };
+		DDEFE3371C570F1B00DBE53D /* Mensaje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mensaje.swift; sourceTree = "<group>"; };
+		DDEFE3391C57104500DBE53D /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		DDEFE33D1C57113100DBE53D /* bridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridgingHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +148,7 @@
 		DDEFE2CB1C570EBC00DBE53D = {
 			isa = PBXGroup;
 			children = (
+				DDEFE33D1C57113100DBE53D /* bridgingHeader.h */,
 				DDEFE2D61C570EBC00DBE53D /* Aplicacion Prueba */,
 				DDEFE2D51C570EBC00DBE53D /* Products */,
 			);
@@ -54,14 +165,79 @@
 		DDEFE2D61C570EBC00DBE53D /* Aplicacion Prueba */ = {
 			isa = PBXGroup;
 			children = (
+				DDEFE30B1C570EF600DBE53D /* SwiftHTTP-master */,
+				DDEFE2E91C570EEC00DBE53D /* JSONJoy-Swift-master */,
 				DDEFE2D71C570EBC00DBE53D /* AppDelegate.swift */,
-				DDEFE2D91C570EBC00DBE53D /* ViewController.swift */,
 				DDEFE2DB1C570EBC00DBE53D /* Main.storyboard */,
 				DDEFE2DE1C570EBC00DBE53D /* Assets.xcassets */,
 				DDEFE2E01C570EBC00DBE53D /* LaunchScreen.storyboard */,
 				DDEFE2E31C570EBC00DBE53D /* Info.plist */,
+				DDEFE3371C570F1B00DBE53D /* Mensaje.swift */,
+				DDEFE3391C57104500DBE53D /* Connection.swift */,
+				DD5530D91C5719F000AB08AE /* SwiftLoading.swift */,
+				DD5530DB1C571CE100AB08AE /* MasterTableViewController.swift */,
+				DD5530DD1C57234B00AB08AE /* DetailViewController.swift */,
+				DD5530DF1C57269800AB08AE /* DisplayMessage.swift */,
+				DD7671671C57D8BF003B5109 /* tableViewCell.swift */,
 			);
 			path = "Aplicacion Prueba";
+			sourceTree = "<group>";
+		};
+		DDEFE2E91C570EEC00DBE53D /* JSONJoy-Swift-master */ = {
+			isa = PBXGroup;
+			children = (
+				DDEFE2EA1C570EEC00DBE53D /* .gitignore */,
+				DDEFE2EB1C570EEC00DBE53D /* Info.plist */,
+				DDEFE2EC1C570EEC00DBE53D /* JSONJoy-Swift.podspec */,
+				DDEFE2ED1C570EEC00DBE53D /* JSONJoy.h */,
+				DDEFE2EE1C570EEC00DBE53D /* JSONJoy.swift */,
+				DDEFE2EF1C570EEC00DBE53D /* JSONJoy.xcodeproj */,
+				DDEFE2F21C570EEC00DBE53D /* LICENSE */,
+				DDEFE2F31C570EEC00DBE53D /* README.md */,
+			);
+			path = "JSONJoy-Swift-master";
+			sourceTree = "<group>";
+		};
+		DDEFE2F01C570EEC00DBE53D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEFE3041C570EEC00DBE53D /* JSONJoy.framework */,
+				DDEFE3061C570EEC00DBE53D /* JSONJoyTests.xctest */,
+				DDEFE3081C570EEC00DBE53D /* JSONJoy.framework */,
+				DDEFE30A1C570EEC00DBE53D /* JSONJoyOSXTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDEFE30B1C570EF600DBE53D /* SwiftHTTP-master */ = {
+			isa = PBXGroup;
+			children = (
+				DDEFE30C1C570EF600DBE53D /* .gitignore */,
+				DDEFE30D1C570EF600DBE53D /* CHANGELOG.md */,
+				DDEFE30E1C570EF600DBE53D /* HTTPSecurity.swift */,
+				DDEFE30F1C570EF600DBE53D /* Info.plist */,
+				DDEFE3101C570EF600DBE53D /* LICENSE */,
+				DDEFE3111C570EF600DBE53D /* Operation.swift */,
+				DDEFE3121C570EF600DBE53D /* README.md */,
+				DDEFE3131C570EF600DBE53D /* Request.swift */,
+				DDEFE3141C570EF600DBE53D /* StatusCode.swift */,
+				DDEFE3151C570EF600DBE53D /* SwiftHTTP.h */,
+				DDEFE3161C570EF600DBE53D /* SwiftHTTP.podspec */,
+				DDEFE3171C570EF600DBE53D /* SwiftHTTP.xcodeproj */,
+				DDEFE31D1C570EF600DBE53D /* Upload.swift */,
+			);
+			path = "SwiftHTTP-master";
+			sourceTree = "<group>";
+		};
+		DDEFE3181C570EF600DBE53D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDEFE3301C570EF600DBE53D /* SwiftHTTP.framework */,
+				DDEFE3321C570EF600DBE53D /* SwiftHTTPTests.xctest */,
+				DDEFE3341C570EF600DBE53D /* SwiftHTTP.framework */,
+				DDEFE3361C570EF600DBE53D /* SwiftHTTPOSXTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +287,16 @@
 			mainGroup = DDEFE2CB1C570EBC00DBE53D;
 			productRefGroup = DDEFE2D51C570EBC00DBE53D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DDEFE2F01C570EEC00DBE53D /* Products */;
+					ProjectRef = DDEFE2EF1C570EEC00DBE53D /* JSONJoy.xcodeproj */;
+				},
+				{
+					ProductGroup = DDEFE3181C570EF600DBE53D /* Products */;
+					ProjectRef = DDEFE3171C570EF600DBE53D /* SwiftHTTP.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				DDEFE2D31C570EBC00DBE53D /* Aplicacion Prueba */,
@@ -118,13 +304,80 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		DDEFE3041C570EEC00DBE53D /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = DDEFE3031C570EEC00DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDEFE3061C570EEC00DBE53D /* JSONJoyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoyTests.xctest;
+			remoteRef = DDEFE3051C570EEC00DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDEFE3081C570EEC00DBE53D /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = DDEFE3071C570EEC00DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDEFE30A1C570EEC00DBE53D /* JSONJoyOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoyOSXTests.xctest;
+			remoteRef = DDEFE3091C570EEC00DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDEFE3301C570EF600DBE53D /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = DDEFE32F1C570EF600DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDEFE3321C570EF600DBE53D /* SwiftHTTPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPTests.xctest;
+			remoteRef = DDEFE3311C570EF600DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDEFE3341C570EF600DBE53D /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = DDEFE3331C570EF600DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DDEFE3361C570EF600DBE53D /* SwiftHTTPOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPOSXTests.xctest;
+			remoteRef = DDEFE3351C570EF600DBE53D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		DDEFE2D21C570EBC00DBE53D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDEFE2F71C570EEC00DBE53D /* .gitignore in Resources */,
+				DDEFE2F91C570EEC00DBE53D /* JSONJoy-Swift.podspec in Resources */,
 				DDEFE2E21C570EBC00DBE53D /* LaunchScreen.storyboard in Resources */,
+				DDEFE2FB1C570EEC00DBE53D /* LICENSE in Resources */,
+				DDEFE3221C570EF600DBE53D /* LICENSE in Resources */,
 				DDEFE2DF1C570EBC00DBE53D /* Assets.xcassets in Resources */,
+				DDEFE2F81C570EEC00DBE53D /* Info.plist in Resources */,
+				DDEFE31E1C570EF600DBE53D /* .gitignore in Resources */,
+				DDEFE3211C570EF600DBE53D /* Info.plist in Resources */,
+				DDEFE3271C570EF600DBE53D /* SwiftHTTP.podspec in Resources */,
 				DDEFE2DD1C570EBC00DBE53D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +389,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDEFE2DA1C570EBC00DBE53D /* ViewController.swift in Sources */,
+				DDEFE3381C570F1B00DBE53D /* Mensaje.swift in Sources */,
+				DDEFE3261C570EF600DBE53D /* StatusCode.swift in Sources */,
+				DDEFE31F1C570EF600DBE53D /* CHANGELOG.md in Sources */,
+				DD5530DA1C5719F000AB08AE /* SwiftLoading.swift in Sources */,
+				DD7671681C57D8BF003B5109 /* tableViewCell.swift in Sources */,
+				DDEFE3201C570EF600DBE53D /* HTTPSecurity.swift in Sources */,
+				DDEFE3231C570EF600DBE53D /* Operation.swift in Sources */,
+				DDEFE33A1C57104500DBE53D /* Connection.swift in Sources */,
+				DDEFE32A1C570EF600DBE53D /* Upload.swift in Sources */,
+				DDEFE2FA1C570EEC00DBE53D /* JSONJoy.swift in Sources */,
+				DDEFE3241C570EF600DBE53D /* README.md in Sources */,
+				DD5530E01C57269800AB08AE /* DisplayMessage.swift in Sources */,
+				DDEFE3251C570EF600DBE53D /* Request.swift in Sources */,
+				DDEFE2FC1C570EEC00DBE53D /* README.md in Sources */,
+				DD5530DE1C57234B00AB08AE /* DetailViewController.swift in Sources */,
 				DDEFE2D81C570EBC00DBE53D /* AppDelegate.swift in Sources */,
+				DD5530DC1C571CE100AB08AE /* MasterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +518,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(PROJECT_DIR)/Aplicacion",
+					"Prueba/SwiftHTTP-master",
+					"$(PROJECT_DIR)/Aplicacion",
+					"Prueba/JSONJoy-Swift-master",
+				);
 				INFOPLIST_FILE = "Aplicacion Prueba/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Void.Aplicacion-Prueba";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,7 +536,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					"$(PROJECT_DIR)/Aplicacion",
+					"Prueba/JSONJoy-Swift-master",
+					"$(PROJECT_DIR)/Aplicacion",
+					"Prueba/SwiftHTTP-master",
+				);
 				INFOPLIST_FILE = "Aplicacion Prueba/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Void.Aplicacion-Prueba";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,6 +569,7 @@
 				DDEFE2E81C570EBC00DBE53D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
